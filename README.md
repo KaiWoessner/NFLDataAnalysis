@@ -14,9 +14,11 @@ EPA/play is basically how successful a given play is where a positive number is 
 The data for the Weekly Team Rankings chart is independent for each week (where each week is one game). In games where the team has a bye week (the team did not play), they where removed from the week.
 The data for the Yearly Team Rankings chart is dependent on the previous weeks and so the EPA/play is added each week.
 Below are a few example charts:  
-<img src="/images/WeeklyOffensiveRankings.png" width="200">
-<img src="/images/WeeklyDefensiveRankings.png" width="200">
-<img src="/images/OverallTeamRankings.png" width="200">
+<p align="center">
+  <img src="/images/WeeklyOffensiveRankings.png" width="400">
+  <img src="/images/WeeklyDefensiveRankings.png" width="400">
+  <img src="/images/OverallTeamRankings.png" width="400">
+</p>
   
 ### Matchup Calculator <a name="matchup_calculator"></a>
 This sub-project involves using 2023 NFL data to compare multiple factors of two teams such as: Ability to rush, ability to defend the rush, ability to pass, ability to defend the pass, and ability to score touchdowns when in the Redzone (20 yards or closer to the endzone). The data also uses EPA/play to measure each teams ability in each rushing and passing category. Before the chart is printed, the user is requested to enter two teams. The numbers under each teams logo is that teams rank in each category out of 32 teams. The larger the area corresponds to a better overall team. Below is an example comparison between the Los Angeles Chargers and the Las Vegas Raiders.
